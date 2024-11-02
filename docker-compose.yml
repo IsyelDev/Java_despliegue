@@ -5,7 +5,6 @@ services:
     image: mysql:latest
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: ${SPRING_DATASOURCES_PASSWORD_ROOT}
       MYSQL_USER: ${SPRING_DATASOURCES_USER}
       MYSQL_PASSWORD: ${SPRING_DATASOURCES_PASSWORD}
       MYSQL_DATABASE: ${SPRING_DATASOURCES_DB}
